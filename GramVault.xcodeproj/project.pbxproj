@@ -1,0 +1,1001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466061D205576C885983C996 /* ContactWebSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB85AAC70F37F025D8FD986 /* ContactWebSheet.swift */; };
+		FB1B06A7CC2A6F0AE6E09C7D /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AAF41955EB2CD326634F3 /* APIConfig.swift */; };
+		01D9785D2B61C91E287A6340 /* VaultSealedPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A0AF48D0E50A6357B64DEA /* VaultSealedPolicy.swift */; };
+		02B7854CDAEBF94372F95521 /* WishModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344935591B13CCAF2E487F95 /* WishModule.swift */; };
+		0CAC65EBCF1BB41F99477099 /* WishRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095F65FB95705F9D5CAEA4B5 /* WishRouter.swift */; };
+		0FD291063E74563C1E48335D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9F6F7FFCBD3EEFBC65D0F513 /* PrivacyInfo.xcprivacy */; };
+		11ADC466D98BAC5503C5BB1C /* BriefingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F74D7B0B1CEE231D6F41E /* BriefingInteractor.swift */; };
+		12D2995A77D4C7D5D9EA0258 /* VaultProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6B38E5868E56326A55017C /* VaultProduct.swift */; };
+		132EE9743C3BF44E742E5A8E /* VaultEmptyPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0A6D1F7585D2CD39BE93E /* VaultEmptyPanel.swift */; };
+		193F57CF940738945E39969A /* VaultLiveScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A0A96411BF7FD9FE6907AB /* VaultLiveScanner.swift */; };
+		1AF76B883316BFABC270889E /* VaultMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1FF4A9FE93E517A7A7535 /* VaultMotion.swift */; };
+		1BE10EEC645B5FC1FC4651C6 /* VaultPortionMathsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE78CED60F33CFD39C0D345 /* VaultPortionMathsTests.swift */; };
+		1E7ECD0E7F50299AE75B7DFD /* VaultPortionMaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDCEA1243EC175ADB5E69B5 /* VaultPortionMaths.swift */; };
+		1F9BC6C1AE8578CAF2B3461E /* VaultAimRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33781309257A2F448B94752D /* VaultAimRepository.swift */; };
+		210DC8460831A3297D9EF6AD /* VaultManagedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120A3EF878B63C5215A598D9 /* VaultManagedModel.swift */; };
+		2242B966BE854723BD6DC3AF /* TargetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073EAEC71E46122DDED54E18 /* TargetsViewController.swift */; };
+		278DFDCA21D463F414DF20B1 /* VaultMacroStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519E024A1F50B8A6741CB6C /* VaultMacroStrip.swift */; };
+		293BFB33545BFE1C08684D1C /* SourcePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136918116558241D63D290B4 /* SourcePresenter.swift */; };
+		2CC389E278CC8AE68D193E1D /* VaultThumbFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA42B1BA1D7E262C0B91FB84 /* VaultThumbFetcher.swift */; };
+		2D3531D25802CD00B117503A /* BriefingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD21A73C8B32F10106FCD1C /* BriefingPresenter.swift */; };
+		2EEAC3742AF239CB55F11DF7 /* VaultDayBoundaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3FF4C2523354BFBC5B82C8 /* VaultDayBoundaryTests.swift */; };
+		326A98C1ACB5A438035D7293 /* VaultModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884440D5728FA56C5A3399DA /* VaultModule.swift */; };
+		32818F1A770E982B53526B85 /* VaultAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1B4267E43CAF362A6AB42 /* VaultAppDelegate.swift */; };
+		3582E4306B95B9D9F96F4862 /* WishPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19802A97278749504B23A6AB /* WishPresenter.swift */; };
+		377A6BB942ABBA1255394440 /* AssignModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD2BF9806EC4259E6C3442A /* AssignModule.swift */; };
+		393B402F5477A7532E000692 /* VaultWishRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76554FAE5BCFA5C602AD776 /* VaultWishRepository.swift */; };
+		3E2BA46F60556FA09891647B /* WishInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E99B02FE22CE470C6312AEC /* WishInteractor.swift */; };
+		488827101AF7ED0099E5EA74 /* SealedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F378E62C06F2348EA04EE1 /* SealedInteractor.swift */; };
+		49C5FB866D182538A1A6E6A4 /* VaultKeyboardAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5534E38E15E33C8DE7E58E /* VaultKeyboardAnchor.swift */; };
+		4CEE27E85E0AEFDE4ACD01C8 /* TargetsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BDD6C2A9D56E9086416ABF /* TargetsModule.swift */; };
+		521CB68C41B2C474C2D3C9E0 /* AssignRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2BE36C4073FF08990280E /* AssignRouter.swift */; };
+		52D36FEBBD8C2B8A4E4104B5 /* VaultPersistenceRoundTripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E264A69D81C903B60E81474 /* VaultPersistenceRoundTripTests.swift */; };
+		5B15724688E0D3A1A78B8232 /* AssignWizardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556430D8E90F1B00E75C6D2E /* AssignWizardViewController.swift */; };
+		5BEBC8E2FD1B88BFD2721C1A /* VaultDemoSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C4912F9AB7F498B26B1850 /* VaultDemoSeeder.swift */; };
+		5C38437E16428ECF4DAB8D35 /* VaultBarcodeNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA831AF6A5C31A0CF2C5E90 /* VaultBarcodeNormalizer.swift */; };
+		6165CA38A5082EEA591F014F /* VaultHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97528DAD350F1A7717B8C6A /* VaultHaptics.swift */; };
+		64638E7086D22D40254B14AE /* VaultDailyTargets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373BCDC19198BD42A6592124 /* VaultDailyTargets.swift */; };
+		66B3E21CD720B252286222A9 /* VaultFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FFD98FD80DD95A841E2649 /* VaultFormatters.swift */; };
+		6E4850B2B69A981515DD04F6 /* VaultCompositionRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45932C92DB4F5DA7438303 /* VaultCompositionRoot.swift */; };
+		70966AACA5990548F33FA8EE /* AssignInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E980D5EB327B39C08E7258CD /* AssignInteractor.swift */; };
+		7647F9B5F95964B1641F2A33 /* VaultInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD03BD82ACD918E668154976 /* VaultInteractor.swift */; };
+		7F842064F015F198E1E2335A /* BriefingContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232DE4B6417BA8CCE7B5B5A5 /* BriefingContracts.swift */; };
+		8062E16877CCCCDB09D3F304 /* VaultDayClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4585E30416944456DACEA984 /* VaultDayClock.swift */; };
+		83203012130CC196EBC6EBEC /* SealedContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F044FA633DB6CB1BDA81F /* SealedContracts.swift */; };
+		84ECD49971442D5DDEA33F22 /* SealedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD7A4157744B473B3470151 /* SealedPresenter.swift */; };
+		8B978E35D0F57BE0D18BA32D /* VaultLedgerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5871A0C4256A66B936ECC7D9 /* VaultLedgerRepository.swift */; };
+		8E09C0894818CA6A6D738793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AF976A703E7980D6D983A2 /* Assets.xcassets */; };
+		8E6A747B81654B9557F5F5AF /* SourceContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D4CCF02CB0CE6C551BCE8 /* SourceContracts.swift */; };
+		8EDA80350745FD0370CC0F25 /* VaultRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433D30494BC6C9078C881FB /* VaultRouter.swift */; };
+		8F4744EACC6EA816616A7BB9 /* VaultPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDBD83F72134C04BD052075 /* VaultPalette.swift */; };
+		8FE9FB2862D93232759B6BB3 /* VaultBarcodeNormalizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0101D8DD31C03571ACB24 /* VaultBarcodeNormalizerTests.swift */; };
+		9537357CF84F8B16B1EF38B4 /* VaultPayloadDecodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BF892F61E09DDBBADCADB6 /* VaultPayloadDecodingTests.swift */; };
+		966B90DD2827B3CFD0F74504 /* VaultSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9126F43A0E6B443B96AA5A /* VaultSceneDelegate.swift */; };
+		977E7E7AE05A8CEC8889977F /* AssignContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B07DB6C3D5BC27B5F3D856C /* AssignContracts.swift */; };
+		9961B1DD2D72AA22EB6CBE63 /* VaultPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BF61D279520BE168F01BA /* VaultPresenter.swift */; };
+		9D278231EBE385848C6D69C3 /* VaultShelfCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784BA72CCC8769F1AF98DCE /* VaultShelfCatalog.swift */; };
+		9E5B5C95FF164C0B80AE154B /* BriefingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE615E5ACB14803EDFD8377C /* BriefingModule.swift */; };
+		9E791BE0A350EE549BC63FE2 /* SourceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5F8852146109C5C378211D /* SourceInteractor.swift */; };
+		9F77B1C5F5BE97EBCAD7CB82 /* TargetsContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC126E0C2838C054B74A11B /* TargetsContracts.swift */; };
+		A03F94E423C80640028FE1C2 /* VaultMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315B02D018CA88D3125CB417 /* VaultMetrics.swift */; };
+		A170CFB4F282BAA698471AA8 /* SourceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69A2A9ED75B9CCE81A6F28 /* SourceRouter.swift */; };
+		A51CA956A1BF88ED4495D7CD /* VaultWishUniquenessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D123A2A0D9D73F0784C3EA3 /* VaultWishUniquenessTests.swift */; };
+		A654D9A1C51AD65B32EF0089 /* VaultSettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91A45DCCAFD73D52E4C09C /* VaultSettingsStore.swift */; };
+		A85EE7F8DCB6BA86F945D9C7 /* TargetsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106D968FEE55EA55B5CF6B60 /* TargetsInteractor.swift */; };
+		AB3789D2D36CDC8A8E9E935D /* TargetsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B40E34F5DBC70AC452130D /* TargetsPresenter.swift */; };
+		AB535DCC18610780FFB3E3E4 /* VaultTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48942B75631C0EBFF294286 /* VaultTypography.swift */; };
+		AE17CEFA4AE19577652441F6 /* SourceModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0D2B95B38618DF7A9507F /* SourceModalViewController.swift */; };
+		B0BE79C909500E6CDC2D8AD0 /* SealedModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A68CD60C56B8C54815C26 /* SealedModule.swift */; };
+		B2C4B952819840E6E3D84271 /* BriefingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B06BA6FC4E0C7BDDA7C0B3B /* BriefingViewController.swift */; };
+		B94491399885ECE2EA90D4B4 /* VaultSealedPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB3A1D29B6EC970F605459 /* VaultSealedPolicyTests.swift */; };
+		BA5DEBDB6CA7BC5B6CC96C80 /* BriefingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D42D1C117CE5D8DA418DD28 /* BriefingRouter.swift */; };
+		BB0B6A3D4FA8885BE0A897E3 /* VaultMacroUnknownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D395DE517450A44946DF1BD /* VaultMacroUnknownTests.swift */; };
+		BF94D8A5E3B0EC05C04070FE /* VaultWishItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801D7412C8C132C444F1D6AD /* VaultWishItem.swift */; };
+		C17675A5E2378DDD10566DBF /* VaultSteelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798097F9C7D1FD020CA99F13 /* VaultSteelButton.swift */; };
+		C4CDF9DE99DDE100E5040AD0 /* VaultPersistentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85B8302087FB979CACF68F6 /* VaultPersistentStore.swift */; };
+		C6A36DDEDDC96DC60BEA9B66 /* VaultDaySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C94AEDDEBE7B89E8DF31971 /* VaultDaySnapshot.swift */; };
+		C7A17FFB1D433A4AE7BF6BE3 /* SealedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F318DE5C6C2FB631918524F /* SealedRouter.swift */; };
+		CFDEB3607680BF026D945FB0 /* VaultContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA21A6706374DDC9D53363BF /* VaultContracts.swift */; };
+		D9E24ED8702B755552AAFEED /* TargetsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22898CE777F2F3A8CF6DFD0 /* TargetsRouter.swift */; };
+		DB3E0CC3F8D6677A0F7974C8 /* VaultDayTotalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609C02332E210BA77748564D /* VaultDayTotalsTests.swift */; };
+		DEFFBAFBC13B3AF64D177413 /* VaultCatalogRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F311BA4BE2C09FA7D1D1B3FA /* VaultCatalogRepository.swift */; };
+		E015C9715EC50AAD51B14644 /* VaultDayTotals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14514EA867AF53DD3F7A850 /* VaultDayTotals.swift */; };
+		E08137DFC487CD20F537436A /* VaultInteractorIsolationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABB00C38EA5A095382E6470 /* VaultInteractorIsolationTests.swift */; };
+		E1258742AF046682CF274596 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 76716E6C241AE98D14C16333 /* SnapKit */; };
+		EAE83302DAA42E94D9916938 /* WishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F8F196C6F045DC55DF93F6 /* WishViewController.swift */; };
+		EFFB071FAD21EA806F37DAE8 /* WishContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F62CED3851B40994D85571 /* WishContracts.swift */; };
+		F420AA1AAA76778901403578 /* SourceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE1573783382B378F497721 /* SourceModule.swift */; };
+		F54FD0B4750470D90EB3CA66 /* AssignPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978667A2F0C5C47CA8167C8C /* AssignPresenter.swift */; };
+		F5EAA8B2F1660E8F562A26A2 /* VaultNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437FC49059D70FB96DCFD810 /* VaultNetworkClient.swift */; };
+		F75276ED0687313B5C6856B9 /* VaultOpenFoodFactsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317391AB4C3830135F8ABA3B /* VaultOpenFoodFactsDTO.swift */; };
+		FE61BEB19ADB9C674A0FCB61 /* VaultSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11543546CFC1D67EAB055BAD /* VaultSlot.swift */; };
+		FEEF77408AE90769A3A861D7 /* SealedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9627C865CC40D41FFBD9BD5 /* SealedViewController.swift */; };
+		FF0AB02D000F94A675D21FD6 /* VaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784D3A2FDFB682366931A228 /* VaultViewController.swift */; };
+		FF6763DF53C62515C60D93CA /* VaultLogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE00EA3F1C57FD8355B6449A /* VaultLogEntry.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		544DD531A3F49297ECF09A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0197B6BF006761DD76AC9258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802EEDD1E4FAEE804F6A1EAE;
+			remoteInfo = GramVault;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AB85AAC70F37F025D8FD986 /* ContactWebSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWebSheet.swift; sourceTree = "<group>"; };
+		BD8AAF41955EB2CD326634F3 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		073EAEC71E46122DDED54E18 /* TargetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetsViewController.swift; sourceTree = "<group>"; };
+		095F65FB95705F9D5CAEA4B5 /* WishRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishRouter.swift; sourceTree = "<group>"; };
+		0A08DE518043A8A87ECF64C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0A4F044FA633DB6CB1BDA81F /* SealedContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealedContracts.swift; sourceTree = "<group>"; };
+		0AC126E0C2838C054B74A11B /* TargetsContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetsContracts.swift; sourceTree = "<group>"; };
+		0B07DB6C3D5BC27B5F3D856C /* AssignContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignContracts.swift; sourceTree = "<group>"; };
+		106D968FEE55EA55B5CF6B60 /* TargetsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetsInteractor.swift; sourceTree = "<group>"; };
+		11543546CFC1D67EAB055BAD /* VaultSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSlot.swift; sourceTree = "<group>"; };
+		120A3EF878B63C5215A598D9 /* VaultManagedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultManagedModel.swift; sourceTree = "<group>"; };
+		136918116558241D63D290B4 /* SourcePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcePresenter.swift; sourceTree = "<group>"; };
+		1784BA72CCC8769F1AF98DCE /* VaultShelfCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultShelfCatalog.swift; sourceTree = "<group>"; };
+		19802A97278749504B23A6AB /* WishPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishPresenter.swift; sourceTree = "<group>"; };
+		1BA1FF4A9FE93E517A7A7535 /* VaultMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultMotion.swift; sourceTree = "<group>"; };
+		232DE4B6417BA8CCE7B5B5A5 /* BriefingContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingContracts.swift; sourceTree = "<group>"; };
+		237D4CCF02CB0CE6C551BCE8 /* SourceContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceContracts.swift; sourceTree = "<group>"; };
+		2AEB3A1D29B6EC970F605459 /* VaultSealedPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSealedPolicyTests.swift; sourceTree = "<group>"; };
+		2D395DE517450A44946DF1BD /* VaultMacroUnknownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultMacroUnknownTests.swift; sourceTree = "<group>"; };
+		2DE78CED60F33CFD39C0D345 /* VaultPortionMathsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultPortionMathsTests.swift; sourceTree = "<group>"; };
+		2E264A69D81C903B60E81474 /* VaultPersistenceRoundTripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultPersistenceRoundTripTests.swift; sourceTree = "<group>"; };
+		2E5534E38E15E33C8DE7E58E /* VaultKeyboardAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultKeyboardAnchor.swift; sourceTree = "<group>"; };
+		2E5F8852146109C5C378211D /* SourceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceInteractor.swift; sourceTree = "<group>"; };
+		315B02D018CA88D3125CB417 /* VaultMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultMetrics.swift; sourceTree = "<group>"; };
+		317391AB4C3830135F8ABA3B /* VaultOpenFoodFactsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultOpenFoodFactsDTO.swift; sourceTree = "<group>"; };
+		33781309257A2F448B94752D /* VaultAimRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultAimRepository.swift; sourceTree = "<group>"; };
+		344935591B13CCAF2E487F95 /* WishModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishModule.swift; sourceTree = "<group>"; };
+		373BCDC19198BD42A6592124 /* VaultDailyTargets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultDailyTargets.swift; sourceTree = "<group>"; };
+		3C94AEDDEBE7B89E8DF31971 /* VaultDaySnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultDaySnapshot.swift; sourceTree = "<group>"; };
+		3D058BEA39FD4D63DACF25A3 /* GramVault.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GramVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB0101D8DD31C03571ACB24 /* VaultBarcodeNormalizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultBarcodeNormalizerTests.swift; sourceTree = "<group>"; };
+		437FC49059D70FB96DCFD810 /* VaultNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultNetworkClient.swift; sourceTree = "<group>"; };
+		4519E024A1F50B8A6741CB6C /* VaultMacroStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultMacroStrip.swift; sourceTree = "<group>"; };
+		4585E30416944456DACEA984 /* VaultDayClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultDayClock.swift; sourceTree = "<group>"; };
+		4B3FF4C2523354BFBC5B82C8 /* VaultDayBoundaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultDayBoundaryTests.swift; sourceTree = "<group>"; };
+		50EABCF31D6AE9F7405C8489 /* GramVaultTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GramVaultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E1B4267E43CAF362A6AB42 /* VaultAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultAppDelegate.swift; sourceTree = "<group>"; };
+		556430D8E90F1B00E75C6D2E /* AssignWizardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignWizardViewController.swift; sourceTree = "<group>"; };
+		5871A0C4256A66B936ECC7D9 /* VaultLedgerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultLedgerRepository.swift; sourceTree = "<group>"; };
+		5A6B38E5868E56326A55017C /* VaultProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultProduct.swift; sourceTree = "<group>"; };
+		5AD21A73C8B32F10106FCD1C /* BriefingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingPresenter.swift; sourceTree = "<group>"; };
+		5B9126F43A0E6B443B96AA5A /* VaultSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSceneDelegate.swift; sourceTree = "<group>"; };
+		5E69A2A9ED75B9CCE81A6F28 /* SourceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceRouter.swift; sourceTree = "<group>"; };
+		609C02332E210BA77748564D /* VaultDayTotalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultDayTotalsTests.swift; sourceTree = "<group>"; };
+		67BF892F61E09DDBBADCADB6 /* VaultPayloadDecodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultPayloadDecodingTests.swift; sourceTree = "<group>"; };
+		6A91A45DCCAFD73D52E4C09C /* VaultSettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSettingsStore.swift; sourceTree = "<group>"; };
+		6D42D1C117CE5D8DA418DD28 /* BriefingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingRouter.swift; sourceTree = "<group>"; };
+		6EDBD83F72134C04BD052075 /* VaultPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultPalette.swift; sourceTree = "<group>"; };
+		784D3A2FDFB682366931A228 /* VaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultViewController.swift; sourceTree = "<group>"; };
+		798097F9C7D1FD020CA99F13 /* VaultSteelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSteelButton.swift; sourceTree = "<group>"; };
+		7B5F74D7B0B1CEE231D6F41E /* BriefingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingInteractor.swift; sourceTree = "<group>"; };
+		7D123A2A0D9D73F0784C3EA3 /* VaultWishUniquenessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultWishUniquenessTests.swift; sourceTree = "<group>"; };
+		7F318DE5C6C2FB631918524F /* SealedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealedRouter.swift; sourceTree = "<group>"; };
+		801D7412C8C132C444F1D6AD /* VaultWishItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultWishItem.swift; sourceTree = "<group>"; };
+		84B40E34F5DBC70AC452130D /* TargetsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetsPresenter.swift; sourceTree = "<group>"; };
+		884440D5728FA56C5A3399DA /* VaultModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultModule.swift; sourceTree = "<group>"; };
+		89F62CED3851B40994D85571 /* WishContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishContracts.swift; sourceTree = "<group>"; };
+		8B06BA6FC4E0C7BDDA7C0B3B /* BriefingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingViewController.swift; sourceTree = "<group>"; };
+		8E99B02FE22CE470C6312AEC /* WishInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishInteractor.swift; sourceTree = "<group>"; };
+		91BDD6C2A9D56E9086416ABF /* TargetsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetsModule.swift; sourceTree = "<group>"; };
+		978667A2F0C5C47CA8167C8C /* AssignPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignPresenter.swift; sourceTree = "<group>"; };
+		982BF61D279520BE168F01BA /* VaultPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultPresenter.swift; sourceTree = "<group>"; };
+		9A45932C92DB4F5DA7438303 /* VaultCompositionRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultCompositionRoot.swift; sourceTree = "<group>"; };
+		9F6F7FFCBD3EEFBC65D0F513 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A3F378E62C06F2348EA04EE1 /* SealedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealedInteractor.swift; sourceTree = "<group>"; };
+		A48942B75631C0EBFF294286 /* VaultTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultTypography.swift; sourceTree = "<group>"; };
+		A6F8F196C6F045DC55DF93F6 /* WishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishViewController.swift; sourceTree = "<group>"; };
+		A97528DAD350F1A7717B8C6A /* VaultHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultHaptics.swift; sourceTree = "<group>"; };
+		AA42B1BA1D7E262C0B91FB84 /* VaultThumbFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultThumbFetcher.swift; sourceTree = "<group>"; };
+		ABDCEA1243EC175ADB5E69B5 /* VaultPortionMaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultPortionMaths.swift; sourceTree = "<group>"; };
+		ACB0A6D1F7585D2CD39BE93E /* VaultEmptyPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultEmptyPanel.swift; sourceTree = "<group>"; };
+		AE615E5ACB14803EDFD8377C /* BriefingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingModule.swift; sourceTree = "<group>"; };
+		AFA831AF6A5C31A0CF2C5E90 /* VaultBarcodeNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultBarcodeNormalizer.swift; sourceTree = "<group>"; };
+		B22898CE777F2F3A8CF6DFD0 /* TargetsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetsRouter.swift; sourceTree = "<group>"; };
+		B2C4912F9AB7F498B26B1850 /* VaultDemoSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultDemoSeeder.swift; sourceTree = "<group>"; };
+		B76554FAE5BCFA5C602AD776 /* VaultWishRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultWishRepository.swift; sourceTree = "<group>"; };
+		B76A68CD60C56B8C54815C26 /* SealedModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealedModule.swift; sourceTree = "<group>"; };
+		B8B0D2B95B38618DF7A9507F /* SourceModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceModalViewController.swift; sourceTree = "<group>"; };
+		C14514EA867AF53DD3F7A850 /* VaultDayTotals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultDayTotals.swift; sourceTree = "<group>"; };
+		C433D30494BC6C9078C881FB /* VaultRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultRouter.swift; sourceTree = "<group>"; };
+		C6A0AF48D0E50A6357B64DEA /* VaultSealedPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultSealedPolicy.swift; sourceTree = "<group>"; };
+		CA21A6706374DDC9D53363BF /* VaultContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultContracts.swift; sourceTree = "<group>"; };
+		CABB00C38EA5A095382E6470 /* VaultInteractorIsolationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultInteractorIsolationTests.swift; sourceTree = "<group>"; };
+		CE00EA3F1C57FD8355B6449A /* VaultLogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultLogEntry.swift; sourceTree = "<group>"; };
+		D3FFD98FD80DD95A841E2649 /* VaultFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultFormatters.swift; sourceTree = "<group>"; };
+		DD03BD82ACD918E668154976 /* VaultInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultInteractor.swift; sourceTree = "<group>"; };
+		DFE1573783382B378F497721 /* SourceModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceModule.swift; sourceTree = "<group>"; };
+		E3AF976A703E7980D6D983A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E85B8302087FB979CACF68F6 /* VaultPersistentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultPersistentStore.swift; sourceTree = "<group>"; };
+		E9627C865CC40D41FFBD9BD5 /* SealedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealedViewController.swift; sourceTree = "<group>"; };
+		E980D5EB327B39C08E7258CD /* AssignInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignInteractor.swift; sourceTree = "<group>"; };
+		E9A0A96411BF7FD9FE6907AB /* VaultLiveScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultLiveScanner.swift; sourceTree = "<group>"; };
+		EFD7A4157744B473B3470151 /* SealedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SealedPresenter.swift; sourceTree = "<group>"; };
+		F311BA4BE2C09FA7D1D1B3FA /* VaultCatalogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultCatalogRepository.swift; sourceTree = "<group>"; };
+		FEF2BE36C4073FF08990280E /* AssignRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignRouter.swift; sourceTree = "<group>"; };
+		FFD2BF9806EC4259E6C3442A /* AssignModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignModule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1225F5B2B9E74B94B615E0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1258742AF046682CF274596 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0723686A0387A44FD43A815C /* Assign */ = {
+			isa = PBXGroup;
+			children = (
+				0B07DB6C3D5BC27B5F3D856C /* AssignContracts.swift */,
+				E980D5EB327B39C08E7258CD /* AssignInteractor.swift */,
+				FFD2BF9806EC4259E6C3442A /* AssignModule.swift */,
+				978667A2F0C5C47CA8167C8C /* AssignPresenter.swift */,
+				FEF2BE36C4073FF08990280E /* AssignRouter.swift */,
+				556430D8E90F1B00E75C6D2E /* AssignWizardViewController.swift */,
+			);
+			path = Assign;
+			sourceTree = "<group>";
+		};
+		14EAAAA20CC1333BC516D81F /* GramVault */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF976A703E7980D6D983A2 /* Assets.xcassets */,
+				9F6F7FFCBD3EEFBC65D0F513 /* PrivacyInfo.xcprivacy */,
+				452BA0158566BED3B74134F9 /* App */,
+				62EDA97FAD40C9B2EA933282 /* Common */,
+				2E879C96EF7EAC57625AC610 /* Data */,
+				A809A7C55A1DCF1C50442EB2 /* Domain */,
+				8309AEB35E976FD8301981D0 /* Presentation */,
+			);
+			path = GramVault;
+			sourceTree = "<group>";
+		};
+		15116AB806B9B4BF384839AB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				237D4CCF02CB0CE6C551BCE8 /* SourceContracts.swift */,
+				2E5F8852146109C5C378211D /* SourceInteractor.swift */,
+				B8B0D2B95B38618DF7A9507F /* SourceModalViewController.swift */,
+				DFE1573783382B378F497721 /* SourceModule.swift */,
+				136918116558241D63D290B4 /* SourcePresenter.swift */,
+				5E69A2A9ED75B9CCE81A6F28 /* SourceRouter.swift */,
+				E9A0A96411BF7FD9FE6907AB /* VaultLiveScanner.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2E879C96EF7EAC57625AC610 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C97B080C8EC5F6385B7C5A94 /* Catalog */,
+				92E5EAF3C1AA0AE67D96A73A /* Network */,
+				EC53D758341F6FDBA8727ABC /* Persistence */,
+				8EC8FBCD2F37D1FEB4A2D5FF /* Repositories */,
+				B0B0BBECA64B78DE702AFFBC /* Support */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		452BA0158566BED3B74134F9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0A08DE518043A8A87ECF64C9 /* Info.plist */,
+				52E1B4267E43CAF362A6AB42 /* VaultAppDelegate.swift */,
+				4AB85AAC70F37F025D8FD986 /* ContactWebSheet.swift */,
+				BD8AAF41955EB2CD326634F3 /* APIConfig.swift */,
+				9A45932C92DB4F5DA7438303 /* VaultCompositionRoot.swift */,
+				5B9126F43A0E6B443B96AA5A /* VaultSceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		47F15CF4ACB9DDB27A16104A = {
+			isa = PBXGroup;
+			children = (
+				14EAAAA20CC1333BC516D81F /* GramVault */,
+				A8375D9CA2590099378205E7 /* GramVaultTests */,
+				683F7E9DC95F0BE1DDE9B27B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A82741292ACEE0B67758B08 /* Wish */ = {
+			isa = PBXGroup;
+			children = (
+				89F62CED3851B40994D85571 /* WishContracts.swift */,
+				8E99B02FE22CE470C6312AEC /* WishInteractor.swift */,
+				344935591B13CCAF2E487F95 /* WishModule.swift */,
+				19802A97278749504B23A6AB /* WishPresenter.swift */,
+				095F65FB95705F9D5CAEA4B5 /* WishRouter.swift */,
+				A6F8F196C6F045DC55DF93F6 /* WishViewController.swift */,
+			);
+			path = Wish;
+			sourceTree = "<group>";
+		};
+		62EDA97FAD40C9B2EA933282 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D3FFD98FD80DD95A841E2649 /* VaultFormatters.swift */,
+				A97528DAD350F1A7717B8C6A /* VaultHaptics.swift */,
+				315B02D018CA88D3125CB417 /* VaultMetrics.swift */,
+				1BA1FF4A9FE93E517A7A7535 /* VaultMotion.swift */,
+				6EDBD83F72134C04BD052075 /* VaultPalette.swift */,
+				A48942B75631C0EBFF294286 /* VaultTypography.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6347F667C8903992A2428A3C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ACB0A6D1F7585D2CD39BE93E /* VaultEmptyPanel.swift */,
+				2E5534E38E15E33C8DE7E58E /* VaultKeyboardAnchor.swift */,
+				4519E024A1F50B8A6741CB6C /* VaultMacroStrip.swift */,
+				798097F9C7D1FD020CA99F13 /* VaultSteelButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		683F7E9DC95F0BE1DDE9B27B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D058BEA39FD4D63DACF25A3 /* GramVault.app */,
+				50EABCF31D6AE9F7405C8489 /* GramVaultTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8309AEB35E976FD8301981D0 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0723686A0387A44FD43A815C /* Assign */,
+				94D80AF47EF2AF1C6B58DADA /* Briefing */,
+				6347F667C8903992A2428A3C /* Components */,
+				C7726E805B3185A67178D1E9 /* Sealed */,
+				15116AB806B9B4BF384839AB /* Source */,
+				F92898EAC4E3CCF36CD0A0A7 /* Targets */,
+				CD7129DAB1B98D82D8C6567B /* Vault */,
+				5A82741292ACEE0B67758B08 /* Wish */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8EC8FBCD2F37D1FEB4A2D5FF /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				33781309257A2F448B94752D /* VaultAimRepository.swift */,
+				5871A0C4256A66B936ECC7D9 /* VaultLedgerRepository.swift */,
+				B76554FAE5BCFA5C602AD776 /* VaultWishRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		92E5EAF3C1AA0AE67D96A73A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				437FC49059D70FB96DCFD810 /* VaultNetworkClient.swift */,
+				317391AB4C3830135F8ABA3B /* VaultOpenFoodFactsDTO.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		94D80AF47EF2AF1C6B58DADA /* Briefing */ = {
+			isa = PBXGroup;
+			children = (
+				232DE4B6417BA8CCE7B5B5A5 /* BriefingContracts.swift */,
+				7B5F74D7B0B1CEE231D6F41E /* BriefingInteractor.swift */,
+				AE615E5ACB14803EDFD8377C /* BriefingModule.swift */,
+				5AD21A73C8B32F10106FCD1C /* BriefingPresenter.swift */,
+				6D42D1C117CE5D8DA418DD28 /* BriefingRouter.swift */,
+				8B06BA6FC4E0C7BDDA7C0B3B /* BriefingViewController.swift */,
+			);
+			path = Briefing;
+			sourceTree = "<group>";
+		};
+		A809A7C55A1DCF1C50442EB2 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AFA831AF6A5C31A0CF2C5E90 /* VaultBarcodeNormalizer.swift */,
+				373BCDC19198BD42A6592124 /* VaultDailyTargets.swift */,
+				4585E30416944456DACEA984 /* VaultDayClock.swift */,
+				3C94AEDDEBE7B89E8DF31971 /* VaultDaySnapshot.swift */,
+				C14514EA867AF53DD3F7A850 /* VaultDayTotals.swift */,
+				CE00EA3F1C57FD8355B6449A /* VaultLogEntry.swift */,
+				ABDCEA1243EC175ADB5E69B5 /* VaultPortionMaths.swift */,
+				5A6B38E5868E56326A55017C /* VaultProduct.swift */,
+				C6A0AF48D0E50A6357B64DEA /* VaultSealedPolicy.swift */,
+				11543546CFC1D67EAB055BAD /* VaultSlot.swift */,
+				801D7412C8C132C444F1D6AD /* VaultWishItem.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A8375D9CA2590099378205E7 /* GramVaultTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB0101D8DD31C03571ACB24 /* VaultBarcodeNormalizerTests.swift */,
+				4B3FF4C2523354BFBC5B82C8 /* VaultDayBoundaryTests.swift */,
+				609C02332E210BA77748564D /* VaultDayTotalsTests.swift */,
+				CABB00C38EA5A095382E6470 /* VaultInteractorIsolationTests.swift */,
+				2D395DE517450A44946DF1BD /* VaultMacroUnknownTests.swift */,
+				67BF892F61E09DDBBADCADB6 /* VaultPayloadDecodingTests.swift */,
+				2E264A69D81C903B60E81474 /* VaultPersistenceRoundTripTests.swift */,
+				2DE78CED60F33CFD39C0D345 /* VaultPortionMathsTests.swift */,
+				2AEB3A1D29B6EC970F605459 /* VaultSealedPolicyTests.swift */,
+				7D123A2A0D9D73F0784C3EA3 /* VaultWishUniquenessTests.swift */,
+			);
+			path = GramVaultTests;
+			sourceTree = "<group>";
+		};
+		B0B0BBECA64B78DE702AFFBC /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B2C4912F9AB7F498B26B1850 /* VaultDemoSeeder.swift */,
+				6A91A45DCCAFD73D52E4C09C /* VaultSettingsStore.swift */,
+				AA42B1BA1D7E262C0B91FB84 /* VaultThumbFetcher.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		C7726E805B3185A67178D1E9 /* Sealed */ = {
+			isa = PBXGroup;
+			children = (
+				0A4F044FA633DB6CB1BDA81F /* SealedContracts.swift */,
+				A3F378E62C06F2348EA04EE1 /* SealedInteractor.swift */,
+				B76A68CD60C56B8C54815C26 /* SealedModule.swift */,
+				EFD7A4157744B473B3470151 /* SealedPresenter.swift */,
+				7F318DE5C6C2FB631918524F /* SealedRouter.swift */,
+				E9627C865CC40D41FFBD9BD5 /* SealedViewController.swift */,
+			);
+			path = Sealed;
+			sourceTree = "<group>";
+		};
+		C97B080C8EC5F6385B7C5A94 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				F311BA4BE2C09FA7D1D1B3FA /* VaultCatalogRepository.swift */,
+				1784BA72CCC8769F1AF98DCE /* VaultShelfCatalog.swift */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		CD7129DAB1B98D82D8C6567B /* Vault */ = {
+			isa = PBXGroup;
+			children = (
+				CA21A6706374DDC9D53363BF /* VaultContracts.swift */,
+				DD03BD82ACD918E668154976 /* VaultInteractor.swift */,
+				884440D5728FA56C5A3399DA /* VaultModule.swift */,
+				982BF61D279520BE168F01BA /* VaultPresenter.swift */,
+				C433D30494BC6C9078C881FB /* VaultRouter.swift */,
+				784D3A2FDFB682366931A228 /* VaultViewController.swift */,
+			);
+			path = Vault;
+			sourceTree = "<group>";
+		};
+		EC53D758341F6FDBA8727ABC /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				120A3EF878B63C5215A598D9 /* VaultManagedModel.swift */,
+				E85B8302087FB979CACF68F6 /* VaultPersistentStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		F92898EAC4E3CCF36CD0A0A7 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				0AC126E0C2838C054B74A11B /* TargetsContracts.swift */,
+				106D968FEE55EA55B5CF6B60 /* TargetsInteractor.swift */,
+				91BDD6C2A9D56E9086416ABF /* TargetsModule.swift */,
+				84B40E34F5DBC70AC452130D /* TargetsPresenter.swift */,
+				B22898CE777F2F3A8CF6DFD0 /* TargetsRouter.swift */,
+				073EAEC71E46122DDED54E18 /* TargetsViewController.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		133AEB1F4635A58404F8A403 /* GramVaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A110F9C581D5136D3F97BC97 /* Build configuration list for PBXNativeTarget "GramVaultTests" */;
+			buildPhases = (
+				01B9B4BF29044EA94D67A2E5 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6A3B71303A0D7FC986D8501 /* PBXTargetDependency */,
+			);
+			name = GramVaultTests;
+			packageProductDependencies = (
+			);
+			productName = GramVaultTests;
+			productReference = 50EABCF31D6AE9F7405C8489 /* GramVaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		802EEDD1E4FAEE804F6A1EAE /* GramVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E476DEF7CAECF496DBC2B8 /* Build configuration list for PBXNativeTarget "GramVault" */;
+			buildPhases = (
+				316B2AF0F0DA36834248FF88 /* Sources */,
+				AB41379CC2BE5A6A1A69367A /* Resources */,
+				1225F5B2B9E74B94B615E0B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GramVault;
+			packageProductDependencies = (
+				FB3B2A2D942AF3BC92CDAFA2 /* Alamofire */,
+				76716E6C241AE98D14C16333 /* SnapKit */,
+			);
+			productName = GramVault;
+			productReference = 3D058BEA39FD4D63DACF25A3 /* GramVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0197B6BF006761DD76AC9258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					802EEDD1E4FAEE804F6A1EAE = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 501424D61B86594C4A6260A5 /* Build configuration list for PBXProject "GramVault" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 47F15CF4ACB9DDB27A16104A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				923B0377367840C766BA4164 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9E8ED2B6AAD72287D3FEB693 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 683F7E9DC95F0BE1DDE9B27B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				802EEDD1E4FAEE804F6A1EAE /* GramVault */,
+				133AEB1F4635A58404F8A403 /* GramVaultTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB41379CC2BE5A6A1A69367A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E09C0894818CA6A6D738793 /* Assets.xcassets in Resources */,
+				0FD291063E74563C1E48335D /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B9B4BF29044EA94D67A2E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE9FB2862D93232759B6BB3 /* VaultBarcodeNormalizerTests.swift in Sources */,
+				2EEAC3742AF239CB55F11DF7 /* VaultDayBoundaryTests.swift in Sources */,
+				DB3E0CC3F8D6677A0F7974C8 /* VaultDayTotalsTests.swift in Sources */,
+				E08137DFC487CD20F537436A /* VaultInteractorIsolationTests.swift in Sources */,
+				BB0B6A3D4FA8885BE0A897E3 /* VaultMacroUnknownTests.swift in Sources */,
+				9537357CF84F8B16B1EF38B4 /* VaultPayloadDecodingTests.swift in Sources */,
+				52D36FEBBD8C2B8A4E4104B5 /* VaultPersistenceRoundTripTests.swift in Sources */,
+				1BE10EEC645B5FC1FC4651C6 /* VaultPortionMathsTests.swift in Sources */,
+				B94491399885ECE2EA90D4B4 /* VaultSealedPolicyTests.swift in Sources */,
+				A51CA956A1BF88ED4495D7CD /* VaultWishUniquenessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316B2AF0F0DA36834248FF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466061D205576C885983C996 /* ContactWebSheet.swift in Sources */,
+				FB1B06A7CC2A6F0AE6E09C7D /* APIConfig.swift in Sources */,
+				977E7E7AE05A8CEC8889977F /* AssignContracts.swift in Sources */,
+				70966AACA5990548F33FA8EE /* AssignInteractor.swift in Sources */,
+				377A6BB942ABBA1255394440 /* AssignModule.swift in Sources */,
+				F54FD0B4750470D90EB3CA66 /* AssignPresenter.swift in Sources */,
+				521CB68C41B2C474C2D3C9E0 /* AssignRouter.swift in Sources */,
+				5B15724688E0D3A1A78B8232 /* AssignWizardViewController.swift in Sources */,
+				7F842064F015F198E1E2335A /* BriefingContracts.swift in Sources */,
+				11ADC466D98BAC5503C5BB1C /* BriefingInteractor.swift in Sources */,
+				9E5B5C95FF164C0B80AE154B /* BriefingModule.swift in Sources */,
+				2D3531D25802CD00B117503A /* BriefingPresenter.swift in Sources */,
+				BA5DEBDB6CA7BC5B6CC96C80 /* BriefingRouter.swift in Sources */,
+				B2C4B952819840E6E3D84271 /* BriefingViewController.swift in Sources */,
+				83203012130CC196EBC6EBEC /* SealedContracts.swift in Sources */,
+				488827101AF7ED0099E5EA74 /* SealedInteractor.swift in Sources */,
+				B0BE79C909500E6CDC2D8AD0 /* SealedModule.swift in Sources */,
+				84ECD49971442D5DDEA33F22 /* SealedPresenter.swift in Sources */,
+				C7A17FFB1D433A4AE7BF6BE3 /* SealedRouter.swift in Sources */,
+				FEEF77408AE90769A3A861D7 /* SealedViewController.swift in Sources */,
+				8E6A747B81654B9557F5F5AF /* SourceContracts.swift in Sources */,
+				9E791BE0A350EE549BC63FE2 /* SourceInteractor.swift in Sources */,
+				AE17CEFA4AE19577652441F6 /* SourceModalViewController.swift in Sources */,
+				F420AA1AAA76778901403578 /* SourceModule.swift in Sources */,
+				293BFB33545BFE1C08684D1C /* SourcePresenter.swift in Sources */,
+				A170CFB4F282BAA698471AA8 /* SourceRouter.swift in Sources */,
+				9F77B1C5F5BE97EBCAD7CB82 /* TargetsContracts.swift in Sources */,
+				A85EE7F8DCB6BA86F945D9C7 /* TargetsInteractor.swift in Sources */,
+				4CEE27E85E0AEFDE4ACD01C8 /* TargetsModule.swift in Sources */,
+				AB3789D2D36CDC8A8E9E935D /* TargetsPresenter.swift in Sources */,
+				D9E24ED8702B755552AAFEED /* TargetsRouter.swift in Sources */,
+				2242B966BE854723BD6DC3AF /* TargetsViewController.swift in Sources */,
+				1F9BC6C1AE8578CAF2B3461E /* VaultAimRepository.swift in Sources */,
+				32818F1A770E982B53526B85 /* VaultAppDelegate.swift in Sources */,
+				5C38437E16428ECF4DAB8D35 /* VaultBarcodeNormalizer.swift in Sources */,
+				DEFFBAFBC13B3AF64D177413 /* VaultCatalogRepository.swift in Sources */,
+				6E4850B2B69A981515DD04F6 /* VaultCompositionRoot.swift in Sources */,
+				CFDEB3607680BF026D945FB0 /* VaultContracts.swift in Sources */,
+				64638E7086D22D40254B14AE /* VaultDailyTargets.swift in Sources */,
+				8062E16877CCCCDB09D3F304 /* VaultDayClock.swift in Sources */,
+				C6A36DDEDDC96DC60BEA9B66 /* VaultDaySnapshot.swift in Sources */,
+				E015C9715EC50AAD51B14644 /* VaultDayTotals.swift in Sources */,
+				5BEBC8E2FD1B88BFD2721C1A /* VaultDemoSeeder.swift in Sources */,
+				132EE9743C3BF44E742E5A8E /* VaultEmptyPanel.swift in Sources */,
+				66B3E21CD720B252286222A9 /* VaultFormatters.swift in Sources */,
+				6165CA38A5082EEA591F014F /* VaultHaptics.swift in Sources */,
+				7647F9B5F95964B1641F2A33 /* VaultInteractor.swift in Sources */,
+				49C5FB866D182538A1A6E6A4 /* VaultKeyboardAnchor.swift in Sources */,
+				8B978E35D0F57BE0D18BA32D /* VaultLedgerRepository.swift in Sources */,
+				193F57CF940738945E39969A /* VaultLiveScanner.swift in Sources */,
+				FF6763DF53C62515C60D93CA /* VaultLogEntry.swift in Sources */,
+				278DFDCA21D463F414DF20B1 /* VaultMacroStrip.swift in Sources */,
+				210DC8460831A3297D9EF6AD /* VaultManagedModel.swift in Sources */,
+				A03F94E423C80640028FE1C2 /* VaultMetrics.swift in Sources */,
+				326A98C1ACB5A438035D7293 /* VaultModule.swift in Sources */,
+				1AF76B883316BFABC270889E /* VaultMotion.swift in Sources */,
+				F5EAA8B2F1660E8F562A26A2 /* VaultNetworkClient.swift in Sources */,
+				F75276ED0687313B5C6856B9 /* VaultOpenFoodFactsDTO.swift in Sources */,
+				8F4744EACC6EA816616A7BB9 /* VaultPalette.swift in Sources */,
+				C4CDF9DE99DDE100E5040AD0 /* VaultPersistentStore.swift in Sources */,
+				1E7ECD0E7F50299AE75B7DFD /* VaultPortionMaths.swift in Sources */,
+				9961B1DD2D72AA22EB6CBE63 /* VaultPresenter.swift in Sources */,
+				12D2995A77D4C7D5D9EA0258 /* VaultProduct.swift in Sources */,
+				8EDA80350745FD0370CC0F25 /* VaultRouter.swift in Sources */,
+				966B90DD2827B3CFD0F74504 /* VaultSceneDelegate.swift in Sources */,
+				01D9785D2B61C91E287A6340 /* VaultSealedPolicy.swift in Sources */,
+				A654D9A1C51AD65B32EF0089 /* VaultSettingsStore.swift in Sources */,
+				9D278231EBE385848C6D69C3 /* VaultShelfCatalog.swift in Sources */,
+				FE61BEB19ADB9C674A0FCB61 /* VaultSlot.swift in Sources */,
+				C17675A5E2378DDD10566DBF /* VaultSteelButton.swift in Sources */,
+				2CC389E278CC8AE68D193E1D /* VaultThumbFetcher.swift in Sources */,
+				AB535DCC18610780FFB3E3E4 /* VaultTypography.swift in Sources */,
+				FF0AB02D000F94A675D21FD6 /* VaultViewController.swift in Sources */,
+				BF94D8A5E3B0EC05C04070FE /* VaultWishItem.swift in Sources */,
+				393B402F5477A7532E000692 /* VaultWishRepository.swift in Sources */,
+				EFFB071FAD21EA806F37DAE8 /* WishContracts.swift in Sources */,
+				3E2BA46F60556FA09891647B /* WishInteractor.swift in Sources */,
+				02B7854CDAEBF94372F95521 /* WishModule.swift in Sources */,
+				3582E4306B95B9D9F96F4862 /* WishPresenter.swift in Sources */,
+				0CAC65EBCF1BB41F99477099 /* WishRouter.swift in Sources */,
+				EAE83302DAA42E94D9916938 /* WishViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6A3B71303A0D7FC986D8501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802EEDD1E4FAEE804F6A1EAE /* GramVault */;
+			targetProxy = 544DD531A3F49297ECF09A43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05B508C50D899D1304A4C395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		53B8FBD1D5908075C5B48B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GramVault/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GramVault;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "GramVault reads barcodes to seal products into your local vault.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gramvault.vault;
+				PRODUCT_NAME = GramVault;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		663974963EA230442F883D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gramvault.vault.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GramVault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GramVault";
+			};
+			name = Release;
+		};
+		852CF20330CEA95E85B49012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GramVault/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GramVault;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "GramVault reads barcodes to seal products into your local vault.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gramvault.vault;
+				PRODUCT_NAME = GramVault;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA0B9100DE2FBEDEF9FFA038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gramvault.vault.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GramVault.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GramVault";
+			};
+			name = Debug;
+		};
+		F95E7D0D9C7771C4EDF35566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E476DEF7CAECF496DBC2B8 /* Build configuration list for PBXNativeTarget "GramVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852CF20330CEA95E85B49012 /* Debug */,
+				53B8FBD1D5908075C5B48B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		501424D61B86594C4A6260A5 /* Build configuration list for PBXProject "GramVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95E7D0D9C7771C4EDF35566 /* Debug */,
+				05B508C50D899D1304A4C395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A110F9C581D5136D3F97BC97 /* Build configuration list for PBXNativeTarget "GramVaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0B9100DE2FBEDEF9FFA038 /* Debug */,
+				663974963EA230442F883D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		923B0377367840C766BA4164 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+		9E8ED2B6AAD72287D3FEB693 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB3B2A2D942AF3BC92CDAFA2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 923B0377367840C766BA4164 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		76716E6C241AE98D14C16333 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E8ED2B6AAD72287D3FEB693 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0197B6BF006761DD76AC9258 /* Project object */;
+}

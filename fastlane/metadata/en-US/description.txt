@@ -1,0 +1,16 @@
+GramVault is a personal food log for tracking daily energy and macros. Products are sealed into a local vault on your device. Search Open Food Facts, scan barcodes, and keep logging when the network is off.
+
+• First-run Briefing walks through sealing grams, Source and scan, and setting daily targets
+• GRAM VAULT home screen shows daily energy progress and Protein, Carbs, and Fat totals against your targets
+• Browse days with previous and next controls
+• Chamber, Ledger, and Horizon panes for your log and planned entries
+• Source modal with Search and Scan to find products in Open Food Facts or read barcodes with the camera
+• Assign wizard to set grams, pick a slot (Vault A, Vault B, Vault C, or Loose Change), and Seal entries
+• Plan ahead up to 14 days on Horizon; tap Eat to convert a planned entry to eaten
+• Wish shelf to save products from Source for later
+• Targets screen to Seal targets, Re-run briefing, Reset vault, or Contact support
+• Sealed toggle cuts the network and uses your cached catalogue and bundled shelf
+• About seal explains offline behaviour and cached product count
+• Resolved products, log entries, wishes, and targets stay in local Core Data
+
+Nutrition data is credited to Open Food Facts. GramVault is a personal food log, not medical advice.

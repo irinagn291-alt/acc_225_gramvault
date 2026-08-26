@@ -1,0 +1,1 @@
+Seal products into a local vault. Track daily energy and macros from Open Food Facts, scan barcodes, plan up to 14 days ahead, and keep logging when Sealed is on.

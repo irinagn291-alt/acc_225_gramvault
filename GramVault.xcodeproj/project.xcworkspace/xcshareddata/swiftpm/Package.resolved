@@ -1,0 +1,23 @@
+{
+  "originHash" : "7fa626961b2834109ad4d9384850bb12836f47ea0a6f727202ec64ba66fdfec1",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wrandecima-bit/Alamofire",
+      "state" : {
+        "revision" : "7fdd403089757be2ce6991b287c7bef612c8bd04"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    }
+  ],
+  "version" : 3
+}
