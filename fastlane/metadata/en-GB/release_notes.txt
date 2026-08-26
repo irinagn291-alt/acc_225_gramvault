@@ -1,0 +1,11 @@
+Welcome to GramVault 1.0.
+
+• Personal food log for daily energy and macro tracking stored on your device
+• Briefing onboarding to set daily targets or skip with the factory set
+• GRAM VAULT home screen with Chamber, Ledger, and Horizon panes
+• Source with Search and Scan to look up Open Food Facts products and read barcodes
+• Assign wizard to set grams, choose Vault A, Vault B, Vault C, or Loose Change, and Seal entries
+• Wish shelf to save products for later
+• Targets screen to edit daily goals, re-run briefing, reset local data, or contact support
+• Sealed mode to disable network lookups and use the cached catalogue
+• Day navigation and Horizon planning up to 14 days ahead
