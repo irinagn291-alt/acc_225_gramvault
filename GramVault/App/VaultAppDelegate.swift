@@ -3,6 +3,7 @@
 import UIKit
 
 @main
+@MainActor
 final class VaultAppDelegate: UIResponder, UIApplicationDelegate {
     func application(
         _ application: UIApplication,
