@@ -21,4 +21,8 @@ final class VaultAppDelegate: UIResponder, UIApplicationDelegate {
         configuration.delegateClass = VaultSceneDelegate.self
         return configuration
     }
+
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        UIDevice.current.userInterfaceIdiom == .pad ? .all : .portrait
+    }
 }
